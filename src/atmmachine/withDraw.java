@@ -9,6 +9,7 @@ public class withDraw
     public withDraw(int balance)
     {
         this.balance = balance;
+
     }
 
     public int getBalance() {

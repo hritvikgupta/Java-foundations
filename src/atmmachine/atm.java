@@ -21,6 +21,9 @@ public class atm {
                 amount = Integer.parseInt(JOptionPane.showInputDialog("Enter amount"));
                 withdraw.setAmount(amount);
                 withdraw.deductAmount();
+                //another way of doing it by
+                //withDraw  withdraw = new withDraw( 10000, amount);
+                //withdraw.deductamount()
                 JOptionPane.showMessageDialog(null,withdraw);
                 break;
             case 2:
